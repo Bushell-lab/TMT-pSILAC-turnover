@@ -1,0 +1,35 @@
+t0 r1	zero	r1	ch	0
+t0 r2	zero	r2	ch	0
+t0 r3	zero	r3	ch	0
+t0 r4	zero	r4	ch	0
+c t8 r1	NT 8h	r1	c r1	8
+c t8 r2	NT 8h	r2	c r2	8
+c t8 r3	NT 8h	r3	c r3	8
+c t8 r4	NT 8h	r4	c r4	8
+a2ko t8 r1	A2 KO 8h	r1	h r1	8
+a2ko t8 r2	A2 KO 8h	r2	h r2	8
+a2ko t8 r3	A2 KO 8h	r3	h r3	8
+a2ko t8 r4	A2 KO 8h	r4	h r4	8
+c t16 r1	NT 16h	r1	c r1	16
+c t16 r2	NT 16h	r2	c r2	16
+c t16 r3	NT 16h	r3	c r3	16
+c t16 r4	NT 16h	r4	c r4	16
+a2ko t16 r1	A2 KO 16h	r1	h r1	16
+a2ko t16 r2	A2 KO 16h	r2	h r2	16
+a2ko t16 r3	A2 KO 16h	r3	h r3	16
+a2ko t16 r4	A2 KO 16h	r4	h r4	16
+c t24 r1	NT 24h	r1	c r1	24
+c t24 r2	NT 24h	r2	c r2	24
+c t24 r3	NT 24h	r3	c r3	24
+c t24 r4	NT 24h	r4	c r4	24
+a2ko t24 r1	A2 KO 24h	r1	h r1	24
+a2ko t24 r2	A2 KO 24h	r2	h r2	24
+a2ko t24 r3	A2 KO 24h	r3	h r3	24
+a2ko t24 r4	A2 KO 24h	r4	h r4	24
+mean t0				0
+mean c t2				8
+mean h t2				8
+mean c t4				16
+mean h t4				16
+mean c t8				24
+mean h t8				24
